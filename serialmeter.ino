@@ -6,6 +6,7 @@
  * device, e.g. a needle gauge.
  *
  * Valid serial commands:
+ *   show - Show current level, settings, etc.
  *   level N - Set level to exactly N, which must be within [0, upper_limit]
  *   levelf F - Set level to F*upper_limit, where f must be within [0, 1.0].
  *              This abstracts away the range of the device, but somewhat
